@@ -1,0 +1,61 @@
+
+.como-comprar {
+  padding: 65px 6%;
+  text-align: center;
+  background: #fff0f6;
+}
+
+.como-comprar h2 {
+  margin-bottom: 32px;
+  color: #843557;
+  font-size: clamp(28px, 4vw, 40px);
+}
+
+.pasos-compra {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
+  max-width: 1050px;
+  margin: 0 auto;
+}
+
+.pasos-compra article {
+  padding: 28px 20px;
+  border: 1px solid #f3cddd;
+  border-radius: 20px;
+  background: #fffafd;
+  box-shadow: 0 6px 18px #9d4d6a12;
+  transition: transform 0.2s ease;
+}
+
+.pasos-compra article:hover {
+  transform: translateY(-4px);
+}
+
+.pasos-compra article > span {
+  display: inline-grid;
+  width: 45px;
+  height: 45px;
+  place-items: center;
+  border-radius: 50%;
+  background: #f8c5d9;
+  color: #843557;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.pasos-compra h3 {
+  color: #9c3b69;
+  font-size: 21px;
+}
+
+.pasos-compra p {
+  color: #80576a;
+  line-height: 1.7;
+}
+
+@media (max-width: 700px) {
+  .pasos-compra {
+    grid-template-columns: 1fr;
+  }
+}

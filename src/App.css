@@ -1,0 +1,13 @@
+main { max-width: 800px; margin: 0 auto; padding: 24px;
+
+  font-family: sans-serif; }
+
+.encabezado { text-align: center; margin-bottom: 24px; }
+
+.tarjeta { border: 1px solid rgb(226, 208, 208); border-radius: 12px;
+
+  padding: 16px; margin-bottom: 16px; }
+
+.precio { font-weight: bold; }
+
+button { padding: 8px 16px; cursor: pointer; }
