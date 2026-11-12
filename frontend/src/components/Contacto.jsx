@@ -6,7 +6,7 @@ function Contacto() {
       <h2>Contacto</h2>
       <p>¿Tienes preguntas sobre nuestras cucharitas sorpresa?</p>
       <p>Pronto encontrarás aquí nuestros datos de contacto.</p>
-      <p>© Mimi_Scoop</p>
+      <p>Desarrollado por Emily Unigarro — Mimi_Scoop © 2026</p>
       <p>© github</p>
     </footer>
   );
