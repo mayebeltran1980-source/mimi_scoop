@@ -18,7 +18,7 @@ function Bienvenida() {
         alt="logo de Mimi_Scoop"
       />
 
-      <button>Descubrir sabores</button>
+      <button>Descubrir sorpresitas</button>
     </section>
   );
 }
