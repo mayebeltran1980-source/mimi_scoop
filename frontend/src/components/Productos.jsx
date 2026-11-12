@@ -1,6 +1,6 @@
 
 import "../App.css";
-import ProductosCard from "./productosCard";
+import ProductosCard from "./ProductosCard";
 
 function Productos({ productos, cantidades, actualizarCantidad }) {
   return (
